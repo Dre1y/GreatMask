@@ -1,3 +1,8 @@
+* {
+  font-family: "JetBrains Mono", monospace;
+  box-sizing: border-box;
+}
+
 header {
   background-color: #ffff;
   color: #fff;
@@ -9,7 +14,6 @@ header {
 }
 
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -31,4 +35,60 @@ body {
 .logo img {
   width: 100px;
   heigth: 100px;
+}
+
+.hero-section {
+  background-image: url("/assets/images/main-image.jpg");
+  background-size: cover;
+  background-position: center;
+  heigth: 800px;
+  padding-top: 80px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-section h1,
+.hero-section p {
+  cursor: default;
+}
+
+.hero-section p {
+  font-size: 0.8rem;
+  line-heigth: 1.2;
+  padding: 0;
+}
+
+.cta-link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.cta-link:hover {
+  color: black;
+}
+
+.cta-button {
+  padding: 10px 50px;
+  background-color: transparent;
+  border: 2px solid red;
+  color: white;
+  border-radius: 2px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.cta-button:hover {
+  background-color: red;
+  border-color: red;
+}
+
+.cta-button:hover .cta-link {
+  color: black;
 }
