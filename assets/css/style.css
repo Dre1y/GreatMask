@@ -33,15 +33,13 @@ body {
 }
 
 .logo img {
-  width: 100px;
-  heigth: 100px;
+  width: 80px;
 }
 
 .hero-section {
   background-image: url("/assets/images/main-image.jpg");
   background-size: cover;
   background-position: center;
-  heigth: 800px;
   padding-top: 80px;
   position: relative;
   display: flex;
@@ -49,6 +47,7 @@ body {
   align-items: center;
   color: #fff;
   text-align: center;
+  letter-spacing: -0.25px;
 }
 
 .hero-section h1,
@@ -58,7 +57,7 @@ body {
 
 .hero-section p {
   font-size: 0.8rem;
-  line-heigth: 1.2;
+  line-height: 1.2;
   padding: 0;
 }
 
@@ -81,7 +80,7 @@ body {
   border-radius: 2px;
   font-size: 16px;
   cursor: pointer;
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 .cta-button:hover {
@@ -91,4 +90,62 @@ body {
 
 .cta-button:hover .cta-link {
   color: black;
+}
+
+.title-content-section {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  cursor: default;
+  padding: 2px;
+  letter-spacing: -0.25px;
+}
+
+.item {
+  display: inline-block;
+  flex-direction: colum;
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+.item-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 20px 50px;
+}
+
+.item-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.item-price {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  flex: 1;
+}
+
+.item-button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin: 5px;
+  padding: 10px;
 }
