@@ -33,7 +33,7 @@ body {
 }
 
 .logo img {
-  width: 80px;
+  width: 200px;
 }
 
 .hero-section {
@@ -113,9 +113,11 @@ body {
   text-align: center;
   text-transform: uppercase;
   vertical-align: top;
+  border: 2px solid gray;
 }
 
 .item-list {
+  cursor: default;
   display: flex;
   gap: 20px;
   list-style: none;
@@ -148,4 +150,5 @@ body {
   border: none;
   margin: 5px;
   padding: 10px;
+  cursor: pointer;
 }
