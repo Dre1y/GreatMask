@@ -23,9 +23,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 .logo {
@@ -37,28 +34,37 @@ body {
 }
 
 .hero-section {
+  display: flex;
+  flex-direction: column;
   background-image: url("/assets/images/main-image.jpg");
   background-size: cover;
   background-position: center;
-  padding-top: 80px;
+  padding: 100px 0;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
   text-align: center;
+  color: #fff;
   letter-spacing: -0.25px;
 }
 
-.hero-section h1,
-.hero-section p {
+.hero-section h1 {
+  font-size: 70px;
   cursor: default;
+  margin: 0;
 }
 
 .hero-section p {
-  font-size: 0.8rem;
+  max-width: 500px;
+  font-size: 1rem;
   line-height: 1.2;
   padding: 0;
+  margin: 20px auto;
+  cursor: default;
 }
 
 .cta-link {
@@ -73,7 +79,7 @@ body {
 }
 
 .cta-button {
-  padding: 10px 50px;
+  padding: 10px 100px;
   background-color: transparent;
   border: 2px solid red;
   color: white;
@@ -95,6 +101,7 @@ body {
 .title-content-section {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: red;
   color: white;
   font-size: 16px;
@@ -104,6 +111,7 @@ body {
 }
 
 .item {
+  flex: 1 1 200px;
   display: inline-block;
   flex-direction: colum;
   width: 300px;
@@ -114,12 +122,15 @@ body {
   text-transform: uppercase;
   vertical-align: top;
   border: 2px solid gray;
+  height: 100%;
 }
 
 .item-list {
+  justify-content: space-around;
   cursor: default;
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
   list-style: none;
   margin: 20px 50px;
 }
@@ -149,6 +160,49 @@ body {
   text-transform: uppercase;
   border: none;
   margin: 5px;
-  padding: 10px;
   cursor: pointer;
+  padding: 10px 50px;
+}
+
+.above-section-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+  border: 2px solid red;
+  color: black;
+  border-radius: 2px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 50px auto;
+  padding: 5px 30px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mask-purposes {
+  text-align: center;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: bold;
+  align-items: flex-start;
+  padding-left: 50px;
+}
+
+.mask-purposes h2 {
+  font-size: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.mask-purposes p {
+  max-width: 600px;
+  font-size: 1rem;
+  line-height: 1.2;
+  padding: 0;
+  margin: 20px auto;
+  cursor: default;
+  align-items: flex-start;
 }
