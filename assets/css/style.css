@@ -306,3 +306,30 @@ body {
 .feedback-button:hover {
   background-color: darkred;
 }
+
+.user-purchase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 0;
+  padding: 10px;
+}
+
+.user-purchase h2 {
+  font-size: 50px;
+  margin: 0;
+  flex: 1;
+  font-weight: bold;
+}
+
+.user-purchase-images {
+  display: flex;
+  gap: 15px;
+}
+
+.glove-image {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+}
