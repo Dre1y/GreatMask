@@ -246,3 +246,63 @@ body {
   font-size: 16px;
   border-bottom: solid red;
 }
+
+.user-feedback {
+  font-size: 40px;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: left;
+  color: #000;
+}
+
+.user-feedback h2 {
+  font-size: 50px;
+  text-align: left;
+  margin-bottom: 40px;
+  text-align: left;
+  color: #000;
+}
+
+.feedback-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.feedback-card {
+  background-color: #f4f4f4;
+  border: 3px solid red;
+  padding: 20px;
+  flex: 1 1 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.feedback-card p {
+  font-size: 16px;
+  color: #333;
+}
+
+.feedback-card .user-name {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.feedback-button {
+  background-color: #b30000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 20px;
+  align-self: flex-start;
+}
+
+.feedback-button:hover {
+  background-color: darkred;
+}
