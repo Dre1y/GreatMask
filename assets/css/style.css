@@ -197,6 +197,10 @@ body {
   margin: 0;
 }
 
+.mask-purposes .p-wear {
+  text-align: center;
+}
+
 .mask-purposes p {
   max-width: 600px;
   font-size: 1rem;
@@ -204,5 +208,41 @@ body {
   padding: 0;
   margin: 20px auto;
   cursor: default;
+  text-align: left;
+}
+
+.why-choose-great-mask {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
   align-items: flex-start;
+  padding: 100px;
+  margin: 0;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.why-choose-great-mask h2 {
+  flex: 1;
+  text-align: left;
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.reasons-list {
+  flex: 1;
+  list-style-type: none;
+  text-align: left;
+  max-width: 600px;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.reasons-list li {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  border-bottom: solid red;
 }
