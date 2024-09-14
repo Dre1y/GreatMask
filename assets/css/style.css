@@ -316,15 +316,18 @@ html {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 50px 0;
-  padding: 10px;
+  margin: 30px 0;
+  padding: 20px;
 }
 
 .user-purchase h2 {
-  font-size: 50px;
+  font-size: 70px;
   margin: 0;
   flex: 1;
   font-weight: bold;
+  letter-spacing: -5px;
+  word-spacing: -25px;
+  max-width: 500px;
 }
 
 .user-purchase-images {
@@ -333,9 +336,11 @@ html {
 }
 
 .glove-image {
-  width: 400px;
+  width: 300px;
   height: auto;
   object-fit: cover;
+  margin-top: -150px;
+  margin-bottom: 40px;
 }
 
 .about-greatmask {
